@@ -42,7 +42,11 @@ permalink: /narrativeflow/tyri/
             this.addInput("Day","string", { dir: LiteGraph.LEFT });
             this.addOutput("Prompt","string", { dir: LiteGraph.RIGHT });
             this.addOutput("Next Day","string", { dir: LiteGraph.RIGHT });
-            this.properties = { parameter: 0 };
+            this.properties = { parameter: 0, description: "" };  // 'title' 속성 추가
+            // 텍스트 위젯 추가
+            this.addWidget("text", "description", this.properties.description, function(value) {
+                this.properties.description = value;
+            }.bind(this));            
         }
     
         function ImageNode() {
@@ -138,7 +142,7 @@ permalink: /narrativeflow/tyri/
             activities.forEach(function(activity, idx) {
                 var activityNode = LiteGraph.createNode("basic/activity");
                 activityNode.title = activity.description;
-                
+                activityNode.properties.description = activity.description;  // 위젯에 들어갈 제목 설정
                 activityNode.pos = [xOffset, yPos + idx * 200];  // Increased spacing
                 activityNode.size = [350, 50];
                 graph.add(activityNode);
