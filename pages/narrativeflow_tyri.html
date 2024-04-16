@@ -1,6 +1,5 @@
 ---
-layout: narrative_flow
-title: narrative_flow
+layout: narrativeflow
 permalink: /narrativeflow/tyri/
 ---
 
@@ -10,6 +9,19 @@ permalink: /narrativeflow/tyri/
     <meta charset="UTF-8">
     <title>Tyri's Narrative Flow</title>
     <script src="/js/litegraph.js"></script>
+    <script>
+        function resizeCanvas() {
+            var canvas = document.getElementById('mycanvas');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        
+        // 창 크기 변경 시 이벤트 리스너 추가
+        window.addEventListener('resize', resizeCanvas);
+        
+        // 초기 로드 시 캔버스 크기 조정
+        resizeCanvas();
+    </script>
 </head>
 <body>
     <canvas id="mycanvas" width="100%" height="100%" style="border: 1px solid;"></canvas>
