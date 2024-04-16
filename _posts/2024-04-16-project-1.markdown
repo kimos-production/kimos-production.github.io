@@ -12,5 +12,5 @@ client: Tyri
 category: AI Influencer
 description: We manage AI influencers like Tyri, a vibrant digital creator in her twenties who fills every day with engaging and entertaining content. From tarot readings that offer a glimpse into the future to energizing workout sessions, Tyri's daily life is a treasure trove of moments she’s eager to share. Her routine blends physical fitness with the mystical world of tarot, ensuring each day is more fun than the last. With Tyri, you're guaranteed to laugh, learn, and grow. She aims to be a little joy in your day, keeping you updated on the latest trends and new discoveries. Join Tyri for never-ending inspiration and excitement.
 page: https://tyritarot.github.io/
-narrative-flow: https://kimos-production.github.io/narrativeflow/tyri.html
+narrative-flow: https://kimos-production.github.io/pages/tyri.html
 ---
