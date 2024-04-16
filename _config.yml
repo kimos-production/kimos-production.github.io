@@ -9,7 +9,7 @@ description: "KIMOS Production is a specialized agency dedicated to cultivating 
 # Team names, titles and social links
 people:
 - name: Kimos
-  pic: 1
+  pic: kimos
   position: Executive Director
   social:
     - title: twitter
