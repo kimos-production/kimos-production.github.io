@@ -2,7 +2,7 @@
 title: Tyri
 subtitle: Digital Creator
 layout: default
-modal-id: 2024-04-16-tyri
+modal-id: 1
 date: 2024-04-16
 img: tyri.jpg
 thumbnail: tyri.jpg
