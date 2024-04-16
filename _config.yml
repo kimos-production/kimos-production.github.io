@@ -2,14 +2,13 @@ url: https://kimos-production.github.io/
 baseurl: 
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+title: KIMOS Production
+email: kimos.production@gmail.com
+description: ""KIMOS Production is a specialized agency dedicated to cultivating and managing AI influencers. As an innovative leader in the digital influencer space, KIMOS Production leverages advanced AI technologies to create and promote virtual personalities tailored to various markets and audiences. For more details, please visit our website at https://kimos-production.github.io/. You can also contact us via email at kimos.production@gmail.com. Explore the future of digital influence with KIMOS Production!""
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Kimos
   pic: 1
   position: Lead Designer
   social:
@@ -20,27 +19,6 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
