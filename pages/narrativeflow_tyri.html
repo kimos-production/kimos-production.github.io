@@ -19,6 +19,9 @@ permalink: /narrativeflow/tyri/
         // 창 크기 변경 시 이벤트 리스너 추가
         window.addEventListener('resize', resizeCanvas);
         
+        // DOM이 완전히 로드된 후 캔버스 크기 조정
+        document.addEventListener('DOMContentLoaded', resizeCanvas);
+
         // 초기 로드 시 캔버스 크기 조정
         resizeCanvas();
     </script>
